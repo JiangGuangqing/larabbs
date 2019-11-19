@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d078a7d7-51c8-44bf-98da-d28520953dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/simditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/simditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/uploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/editor/css/simditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/editor/js/hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/editor/js/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/editor/js/simditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/editor/js/uploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/topics/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/topics/201911/19/1_1574143509_th7l8Bbg8Y.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +169,7 @@
       <updated>1573434598150</updated>
       <workItem from="1573434600175" duration="23630000" />
       <workItem from="1573787494216" duration="6171000" />
-      <workItem from="1574123450718" duration="6198000" />
+      <workItem from="1574123450718" duration="6911000" />
     </task>
     <servers />
   </component>
