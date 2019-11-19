@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d078a7d7-51c8-44bf-98da-d28520953dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Handlers/SlugTranslateHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Jobs/TranslateSlug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/HorizonServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/horizon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/horizon/app-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/horizon/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/horizon/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/horizon/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/horizon/img/horizon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/horizon/img/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/horizon/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Topic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Observers/TopicObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/TopicObserver.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/_topic_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/_topic_list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/_topics.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/_topics.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +141,9 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/overtrue/pinyin" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/chronos" />
+      <path value="$PROJECT_DIR$/vendor/laravel/horizon" />
     </include_path>
   </component>
   <component name="ProjectId" id="1TRtBDddxz1x5CVS2xZIlM4bTc8" />
@@ -182,7 +187,7 @@
       <updated>1573434598150</updated>
       <workItem from="1573434600175" duration="23630000" />
       <workItem from="1573787494216" duration="6171000" />
-      <workItem from="1574123450718" duration="10433000" />
+      <workItem from="1574123450718" duration="12484000" />
     </task>
     <servers />
   </component>
