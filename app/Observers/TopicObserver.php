@@ -29,6 +29,6 @@ class TopicObserver
     
     public function deleted(Topic $topic)
     {
-        DB::table('replies')->where('topid_id', $topic->id)->delete();
+        DB::table('replies')->where('topic_id', $topic->id)->delete();
     }
 }
