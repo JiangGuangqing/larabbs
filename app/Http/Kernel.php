@@ -2,6 +2,7 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\AcceptHeader;
 use App\Http\Middleware\RecordLastAactivedTime;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -41,6 +42,7 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
+             \App\Http\Middleware\AcceptHeader::class,
             'throttle:60,1',
             'bindings',
         ],
