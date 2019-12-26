@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d078a7d7-51c8-44bf-98da-d28520953dc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,12 @@
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="larabbs.test" id="80061f74-5403-48b6-8ea2-31296c90868b" name="larabbs" />
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -164,12 +166,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Page.larabbs">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="larabbs" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="larabbs">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Web Page.larabbs" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -214,7 +224,7 @@
       <workItem from="1576819009225" duration="1523000" />
       <workItem from="1577242390599" duration="3079000" />
       <workItem from="1577323048158" duration="5000" />
-      <workItem from="1577330474510" duration="4971000" />
+      <workItem from="1577330474510" duration="8617000" />
     </task>
     <servers />
   </component>
@@ -238,6 +248,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2467" y="213" key="#Servers" timestamp="1577343191227">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2467" y="213" key="#Servers/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577343191227" />
+    <state x="2344" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577343195248">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2344" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577343195248" />
     <state x="2642" y="151" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576030485179">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -246,9 +264,14 @@
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2728" y="280" key="RollbackChangesDialog/0.23.1920.978/1920.23.1920.1057@1920.23.1920.1057" timestamp="1576215282387" />
-    <state x="625" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1577338158447">
-      <screen x="0" y="23" width="1920" height="1008" />
+    <state x="2389" y="190" key="SettingsEditor" timestamp="1577343278433">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2389" y="190" key="SettingsEditor/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577343278433" />
+    <state x="2545" y="257" width="670" height="709" key="search.everywhere.popup" timestamp="1577344358160">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="625" y="246" width="670" height="676" key="search.everywhere.popup/0.23.1920.1008/1920.23.1920.1057@0.23.1920.1008" timestamp="1577338158447" />
+    <state x="2545" y="257" width="670" height="709" key="search.everywhere.popup/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577344358160" />
   </component>
 </project>
