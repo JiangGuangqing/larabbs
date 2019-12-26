@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d078a7d7-51c8-44bf-98da-d28520953dc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthorizationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthorizationsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +226,7 @@
       <workItem from="1576819009225" duration="1523000" />
       <workItem from="1577242390599" duration="3079000" />
       <workItem from="1577323048158" duration="5000" />
-      <workItem from="1577330474510" duration="12574000" />
+      <workItem from="1577330474510" duration="13270000" />
     </task>
     <servers />
   </component>
@@ -278,6 +270,10 @@
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2389" y="190" key="SettingsEditor/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577343278433" />
+    <state x="2545" y="256" key="run.anything.popup" timestamp="1577349371218">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2545" y="256" key="run.anything.popup/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577349371218" />
     <state x="2545" y="257" width="670" height="709" key="search.everywhere.popup" timestamp="1577347414578">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
