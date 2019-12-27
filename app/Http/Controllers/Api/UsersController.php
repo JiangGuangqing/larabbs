@@ -30,6 +30,16 @@ class UsersController extends Controller
             'password' => $request->password,
         ]);
 
+        return (new UserResource($user))->showSensitiviteFields();
+    }
+
+    public function show(User $user, Request $request)
+    {
         return new UserResource($user);
+    }
+
+    public function me(Request $request)
+    {
+        return (new UserResource($request->user()))->showSensitiviteFields();
     }
 }
