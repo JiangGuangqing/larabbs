@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d078a7d7-51c8-44bf-98da-d28520953dc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Api/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Api/UserRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +244,7 @@
       <workItem from="1577330474510" duration="25364000" />
       <workItem from="1577671918141" duration="1148000" />
       <workItem from="1577925937330" duration="3000" />
-      <workItem from="1578272555161" duration="4234000" />
+      <workItem from="1578272555161" duration="5371000" />
     </task>
     <servers />
   </component>
@@ -278,10 +276,11 @@
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2344" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577343195248" />
-    <state x="2642" y="151" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576030485179">
+    <state x="2642" y="136" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578280062920">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2642" y="151" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.978/1920.23.1920.1057@1920.23.1920.1057" timestamp="1576030485179" />
+    <state x="2642" y="136" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.990/1920.23.1920.1057@1920.23.1920.1057" timestamp="1578280062920" />
     <state width="1878" height="330" key="GridCell.Tab.0.bottom" timestamp="1577764175099">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
