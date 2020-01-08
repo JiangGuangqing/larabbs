@@ -4,6 +4,7 @@ namespace App\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Support\Arr;
 
 class Handler extends ExceptionHandler
 {
@@ -29,7 +30,7 @@ class Handler extends ExceptionHandler
     /**
      * Report or log an exception.
      *
-     * @param  \Exception  $exception
+     * @param \Exception $exception
      * @return void
      */
     public function report(Exception $exception)
@@ -40,12 +41,28 @@ class Handler extends ExceptionHandler
     /**
      * Render an exception into an HTTP response.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Exception  $exception
+     * @param \Illuminate\Http\Request $request
+     * @param \Exception $exception
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $exception)
     {
         return parent::render($request, $exception);
+    }
+
+    protected function convertExceptionToArray(Exception $e)
+    {
+        return config('app.debug') ? [
+            'message' => $e->getMessage(),
+            'code' => $e->getCode(),
+            'exception' => $e->get_class($e),
+            'file' => $e->getFile(),
+            'line' => $e->getLine(),
+            'trace' => collect($e->getTrace())->map(function ($tract) {
+                return Arr::except($tract, ['args']);
+            })->all(),
+        ] : [
+            'message' => $this->isHttpException($e) ? $e->getMessage() : 'Server Error',
+        ];
     }
 }

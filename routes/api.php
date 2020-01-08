@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix('v1')->namespace('Api')->name('api.v1.')->middleware('throttle:' . config('api.rate_limits.sign'))->group(function () {
+Route::prefix('v1')->namespace('Api')->middleware('change-locale')->name('api.v1.')->middleware('throttle:' . config('api.rate_limits.sign'))->group(function () {
     //图片验证码
     Route::post('captchas', 'CaptchasController@store')->name('captchas.store');
 
@@ -53,6 +53,8 @@ Route::prefix('v1')->namespace('Api')->name('api.v1.')->middleware('throttle:' .
         Route::get('users/{user}/replies', 'RepliesController@userIndex')->name('users.replies.index');
         //资源推荐
         Route::get('links', 'LinksController@index')->name('links.index');
+        //活跃用户
+        Route::get('actived/users', 'UsersController@activedIndex')->name('actived.users.index');
 
         //登录后可以访问的接口
         Route::middleware('auth:api')->group(function () {
