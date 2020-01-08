@@ -7,13 +7,15 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
+use JPush\PushPayload;
+use App\Notifications\Channels\JPushChannel;
 
 class TopicReplied extends Notification implements ShouldQueue
 {
     use Queueable;
-    
+
     public $reply;
-    
+
     /**
      * Create a new notification instance.
      *
@@ -24,7 +26,7 @@ class TopicReplied extends Notification implements ShouldQueue
         //注入回复实体，方便 toDatabase 方法中调用
         $this->reply = $reply;
     }
-    
+
     /**
      * Get the notification's delivery channels.
      *
@@ -33,9 +35,9 @@ class TopicReplied extends Notification implements ShouldQueue
      */
     public function via($notifiable)
     {
-        return ['database','mail'];
+        return ['database',JPushChannel::class];
     }
-    
+
     /**
      * Get the mail representation of the notification.
      *
@@ -49,7 +51,7 @@ class TopicReplied extends Notification implements ShouldQueue
             ->line('你的话题有新的回复')
             ->action('查看回复', $url);
     }
-    
+
     /**
      * Get the array representation of the notification.
      *
@@ -62,12 +64,12 @@ class TopicReplied extends Notification implements ShouldQueue
             //
         ];
     }
-    
+
     public function toDatabase($notifiable)
     {
         $topic = $this->reply->topic;
         $link = $topic->link(['#reply' . $this->reply->id]);
-        
+
         //存入数据库里的数据
         return [
             'reply_id' => $this->reply->id,
@@ -79,5 +81,13 @@ class TopicReplied extends Notification implements ShouldQueue
             'topic_id' => $topic->id,
             'topic_title' => $topic->title,
         ];
+    }
+
+    public function toJPush($notifiable, PushPayload $payload): PushPayload
+    {
+        return $payload
+            ->setPlatform('all')
+            ->addRegistrationId($notifiable->registration_id)
+            ->setNotificationAlert(strip_tags($this->reply->content));
     }
 }

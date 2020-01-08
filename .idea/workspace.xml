@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d078a7d7-51c8-44bf-98da-d28520953dc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Notifications/TopicReplied.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Notifications/TopicReplied.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +176,7 @@
       <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-query-builder" />
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-query-logger" />
+      <path value="$PROJECT_DIR$/vendor/jpush/jpush" />
     </include_path>
   </component>
   <component name="ProjectId" id="1TRtBDddxz1x5CVS2xZIlM4bTc8" />
@@ -251,7 +255,7 @@
       <workItem from="1577671918141" duration="1148000" />
       <workItem from="1577925937330" duration="3000" />
       <workItem from="1578272555161" duration="20805000" />
-      <workItem from="1578383699880" duration="8224000" />
+      <workItem from="1578383699880" duration="9630000" />
     </task>
     <servers />
   </component>
@@ -283,6 +287,10 @@
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2344" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577343195248" />
+    <state x="2626" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578455420347">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2626" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.990/1920.23.1920.1057@1920.23.1920.1057" timestamp="1578455420347" />
     <state x="2642" y="136" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578280062920">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -350,11 +358,11 @@
     </state>
     <state x="2545" y="256" key="run.anything.popup/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577349371218" />
     <state x="2545" y="256" key="run.anything.popup/0.23.1920.990/1920.23.1920.1057@1920.23.1920.1057" timestamp="1578277038830" />
-    <state x="2545" y="257" width="670" height="709" key="search.everywhere.popup" timestamp="1578294944728">
+    <state x="2545" y="257" width="670" height="709" key="search.everywhere.popup" timestamp="1578454730103">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="625" y="246" width="670" height="676" key="search.everywhere.popup/0.23.1920.1008/1920.23.1920.1057@0.23.1920.1008" timestamp="1577423540408" />
     <state x="2545" y="257" width="670" height="709" key="search.everywhere.popup/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1577347414578" />
-    <state x="2545" y="257" width="670" height="709" key="search.everywhere.popup/0.23.1920.990/1920.23.1920.1057@1920.23.1920.1057" timestamp="1578294944728" />
+    <state x="2545" y="257" width="670" height="709" key="search.everywhere.popup/0.23.1920.990/1920.23.1920.1057@1920.23.1920.1057" timestamp="1578454730103" />
   </component>
 </project>
